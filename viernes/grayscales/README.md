@@ -6,7 +6,7 @@
 
 En la sección 3 de ![este artículo](https://www.baeldung.com/cs/convert-rgb-to-grayscale) se presentan 3 estrategias para convertir a pikachu vs charmander de RGB a escala de grises.
 
-![PikachuVsCharmader](./pkachu_vs_charmander.jpeg)
+![PikachuVsCharmader](./pikachu_vs_charmander.jpeg)
 
 Esta actividad deberá resolverse utilizando  numpy y las funciones de matplotlib
 

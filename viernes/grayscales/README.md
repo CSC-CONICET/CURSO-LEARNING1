@@ -4,7 +4,9 @@
 
 ## GrayScales:
 
-En la sección 3 de [este artículo](https://www.baeldung.com/cs/convert-rgb-to-grayscale) se presentan 3 estrategias para convertir a pikachu vs charmander de RGB a escala de grises.
+En la sección 3 de [este artículo](https://www.baeldung.com/cs/convert-rgb-to-grayscale) se presentan 3 estrategias para convertir imágenes de RGB a escala de grises.
+
+Aplique las 3  estrategias a pikachu vs charmander
 
 ![PikachuVsCharmader](./pikachu_vs_charmander.jpeg)
 

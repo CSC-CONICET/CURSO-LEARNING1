@@ -26,5 +26,5 @@ Esta actividad deberá resolverse utilizando  numpy y las funciones de matplotli
 ## Ejercicio 5:  Espejar la imagen
 ![mirror](./mirror.png)
 
-## Ejercicio 6:  Dibugar una grilla (pista, usar strides)
+## Ejercicio 6:  Dibujar una grilla (pista, usar strides)
 ![grid](./grid.png)

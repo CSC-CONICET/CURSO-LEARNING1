@@ -6,8 +6,8 @@ Para ejercitar el uso de slices e indexación se trabajará realizando modificac
 
 Esta actividad deberá resolverse utilizando  numpy y las funciones de matplotlib
 
-* ![imread](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.imread.html) para cargar la imagen
-* ![imshow](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.imshow.html) para levantar la imagen
+* [imread](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.imread.html) para cargar la imagen
+* [imshow](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.imshow.html) para levantar la imagen
 
 **No deberán utlizar ningún tipo de loop (for / while)**
 

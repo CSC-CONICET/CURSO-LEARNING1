@@ -11,7 +11,7 @@ class FriendOrFoe:
 
     @staticmethod
     def friend(x):
-        return [f for f in x if len(f) == 4]
+        return x
 
 
 class RegexValidatePinCode:

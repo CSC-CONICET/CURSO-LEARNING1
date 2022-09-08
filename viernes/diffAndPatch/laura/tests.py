@@ -1,7 +1,6 @@
 import unittest
+import TestRunner
 from kyu7 import FriendOrFoe, RegexValidatePinCode, HighestAndLowest, VowelCount
-from kyu6 import DetectPangram
-
 from random import choice, randint, shuffle, choices, sample
 from string import ascii_letters as abc
 
@@ -91,32 +90,6 @@ class HighestAndLowestTests(unittest.TestCase):
 
             self.assertEqual(HighestAndLowest.high_and_low(arg), exp)
 
-
-class DetectPanagramTests(unittest.TestCase):
-
-    def test_pangram(self):
-        self.assertEqual(DetectPangram.is_pangram("The quick, brown fox jumps over the lazy dog!"), True)
-
-    def test_not_pangram(self):
-        self.assertEqual(DetectPangram.is_pangram("1bcdefghijklmnopqrstuvwxyz"), False)
-
-    def test_fixed_pangrams(self):
-        pangrams = ["The quick brown fox jumps over the lazy dog.",
-                    "Cwm fjord bank glyphs vext quiz",
-                    "Pack my box with five dozen liquor jugs.",
-                    "How quickly daft jumping zebras vex.",
-                    "ABCD45EFGH,IJK,LMNOPQR56STUVW3XYZ"]
-        for pangram in pangrams:
-            self.assertEqual(DetectPangram.is_pangram(pangram), True, f"Incorrect answer for '{pangram}'")
-
-    def test_fixed_non_pangrams(self):
-        non_pangrams = ["This isn't a pangram!",
-                        "abcdefghijklm opqrstuvwxyz",
-                        "Aacdefghijklmnopqrstuvwxyz"]
-        for non_pangram in non_pangrams:
-            self.assertEqual(DetectPangram.is_pangram(non_pangram), False, f"Incorrect answer for '{non_pangram}'")
-
-
 class VowelCountTests(unittest.TestCase):
 
     vowels = "aeiou"
@@ -174,4 +147,4 @@ class VowelCountTests(unittest.TestCase):
 
 
 if __name__ == '__main__':
-    unittest.main()
+    unittest.main(testRunner = TestRunner.TestRunner())
